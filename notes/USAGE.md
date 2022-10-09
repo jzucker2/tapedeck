@@ -40,3 +40,8 @@ EXPOSE 5555
 FROM source_code AS run_server
 CMD ["npm", "start"]
 ```
+
+## Base Image
+
+This is a base image for pure node (+ express) projects.
+For more info on react base images, see [cassette](https://github.com/jzucker2/cassette)
