@@ -1,3 +1,5 @@
+.github/
+.tool-versions
 node_modules
 build
 .dockerignore
