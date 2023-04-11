@@ -1,10 +1,14 @@
 # Updating
 
+Basic dependency updating steps
+
 ## Steps
 
 1. Update `package.json`
-2. Update `Dockerfile`
-3. run `yarn install` to get latest lock files
+1. Update `Dockerfile`
+1. Make sure to set proper `node` version using `nvm`
+1. Delete `yarn.lock` file
+1. run `yarn install` to get latest lock files
 
 ## Dev Work
 
