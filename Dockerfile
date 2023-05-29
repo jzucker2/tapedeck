@@ -1,8 +1,8 @@
 # https://github.com/nodejs/docker-node/issues/1589
-FROM node:16 AS debian_base
+FROM node:20 AS debian_base
 
 FROM debian_base AS node_globals
-ARG NPM_VERSION=8.19.2
+ARG NPM_VERSION=9.6.6
 RUN npm install -g npm@${NPM_VERSION}
 
 # from https://github.com/nodejs/docker-node/pull/367
